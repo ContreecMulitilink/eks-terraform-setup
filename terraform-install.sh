@@ -1,5 +1,6 @@
 #!/bin/bash
 # install terraform in ubuntu server
+# update on Aug 08 2022 - terraform version below is outdated
 sudo apt install wget unzip -y
 wget https://releases.hashicorp.com/terraform/0.12.26/terraform_0.12.26_linux_amd64.zip
 sudo unzip terraform_0.12.26_linux_amd64.zip -d /usr/local/bin/
